@@ -1,0 +1,29 @@
+$color-bg: #030033;
+$color-nav-bg: #07000f;
+$color-surface: #510057;
+$color-accent: #c979ff;
+$color-accent-soft: rgba(146, 56, 248, 0.15);
+$color-text: #e5e7eb;
+$color-muted: #b9c3d4;
+$color-border: #2b1f33;
+$color-link: #f0ccff;
+$color-link-hover: #cd4fff;
+
+$font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
+
+$radius-sm: 0.5rem;
+$radius-md: 0.75rem;
+$radius-lg: 1rem;
+
+$shadow-soft: 0 18px 40px rgba(204, 146, 238, 0.55);
+$shadow-soft-sm: 0 6px 16px rgba(204, 146, 238, 0.35);
+
+$container-max-width: 1120px;
+$container-padding-inline: 1.5rem;
+$section-spacing-block: 5rem;
+$section-spacing-block-lg: 7rem;
+
+$bp-tablet: 768px;
+$bp-desktop: 1024px;

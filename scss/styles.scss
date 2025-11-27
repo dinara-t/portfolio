@@ -1,0 +1,19 @@
+// 1. Utilities
+@import "utils/variables";
+@import "utils/media";
+
+// 2. Base
+@import "base/base";
+
+// 3. Layout
+@import "layout/layout";
+
+// 4. Components
+@import "components/buttons";
+@import "components/header";
+@import "components/hero";
+@import "components/about";
+@import "components/skills";
+@import "components/projects";
+@import "components/contact";
+@import "components/footer";

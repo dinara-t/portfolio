@@ -1,0 +1,62 @@
+@import "../utils/variables";
+
+.about {
+  &__content {
+    display: grid;
+    gap: 2rem;
+  }
+
+  &__text p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: $color-text;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__highlights {
+    border: 1px solid $color-border;
+    padding: 1.2rem;
+    border-radius: $radius-md;
+    background-color: rgba($color-surface, 0.5);
+  }
+
+  &__highlights-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  &__highlights-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    color: $color-muted;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__highlights-item {
+    position: relative;
+    padding-left: 1rem;
+
+    &::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: $color-accent;
+    }
+  }
+
+  @media (min-width: $bp-tablet) {
+    &__content {
+      grid-template-columns: 2fr 1.4fr;
+      align-items: flex-start;
+    }
+  }
+}

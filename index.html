@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Dinara Tiumina</title>
+    <link rel="stylesheet" href="./scss/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body class="page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a href="#hero" class="site-header__logo">
+          <span class="site-header__logo-mark">DT</span>
+          <span class="site-header__logo-text">Dinara Tiumina</span>
+        </a>
+
+        <button
+          class="site-header__menu-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="site-header__nav" id="primary-menu">
+          <ul class="site-header__menu">
+            <li class="site-header__menu-item">
+              <a class="site-header__menu-link" href="#about">About</a>
+            </li>
+            <li class="site-header__menu-item">
+              <a class="site-header__menu-link" href="#skills">Skills</a>
+            </li>
+            <li class="site-header__menu-item">
+              <a class="site-header__menu-link" href="#projects">Projects</a>
+            </li>
+            <li class="site-header__menu-item">
+              <a class="site-header__menu-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page__main">
+      <section id="hero" class="hero">
+        <div class="hero__inner container">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Hi, my name is</p>
+            <h1 class="hero__title">Dinara Tiumina</h1>
+            <p class="hero__subtitle">Aspiring Software Developer</p>
+            <p class="hero__intro">
+              I’m transitioning into software development through a structured,
+              industry-aligned training program. With a background in SaaS
+              support and digital systems, I am now building strong foundations
+              in modern development practices.
+            </p>
+            <div class="hero__actions">
+              <a href="#projects" class="button button--primary"
+                >View Projects</a
+              >
+              <a href="#contact" class="button button--ghost">Get in Touch</a>
+            </div>
+          </div>
+
+          <div class="hero__avatar">
+            <img
+              src="./assets/hero_image.jpg"
+              alt="Dinara - original photo"
+              class="hero__avatar-image avatar-hover__img avatar-hover__img--original"
+            />
+            <img
+              src="./assets/hero_image_cartoon.png"
+              alt="Dinara - cartoon version"
+              class="hero__avatar-image avatar-hover__img avatar-hover__img--cartoon"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="section__inner container">
+          <header class="section__header">
+            <p class="section__eyebrow">About me</p>
+          </header>
+
+          <div class="about__content">
+            <div class="about__text">
+              <p>
+                I am currently completing an intensive, practical software
+                development course focused on HTML, CSS, JavaScript, React,
+                Java, cloud fundamentals, APIs, and test-driven development. The
+                program is designed to help people with no prior coding
+                experience build confidence and enter the tech sector with
+                job-ready skills.
+              </p>
+              <p>
+                My background includes over five years in SaaS customer success
+                and application support, working with tools such as Salesforce,
+                HubSpot, Oracle, SAP, and Infor M3. I enjoy problem-solving,
+                improving user workflows, and learning how systems work. My
+                current focus is building technical skills through hands-on
+                coding projects and continuous learning.
+              </p>
+            </div>
+            <div class="about__highlights">
+              <h3 class="about__highlights-title">Quick facts</h3>
+              <ul class="about__highlights-list">
+                <li class="about__highlights-item">
+                  Based in: Central Coast, NSW
+                </li>
+                <li class="about__highlights-item">
+                  Currently learning: JavaScript, React, Java, TDD, APIs, Cloud
+                  technologies
+                </li>
+                <li class="about__highlights-item">
+                  Project focus: Web development, coding practice, and technical
+                  skill-building
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section">
+        <div class="section__inner container">
+          <header class="section__header">
+            <p class="section__eyebrow">Skills</p>
+            <p class="section__description">
+              A snapshot of the technical skills I’m actively building and the
+              tools I have applied professionally.
+            </p>
+          </header>
+
+          <div class="skills__groups">
+            <article class="skills__group">
+              <h3 class="skills__group-title">Core</h3>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <i class="fa-brands fa-html5"></i><span>HTML5</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-brands fa-css3-alt"></i><span>CSS / SCSS</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-brands fa-js"></i><span>JavaScript</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-code"></i><span>Java</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-cloud"></i><span>Cloud basics</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="skills__group">
+              <h3 class="skills__group-title">Frameworks / Libraries</h3>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <i class="fa-brands fa-react"></i><span>React</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-plug"></i><span>REST APIs</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-vial"></i><span>TDD basics</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="skills__group">
+              <h3 class="skills__group-title">Tools &amp; Workflow</h3>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <i class="fa-brands fa-git-alt"></i
+                  ><span>Git &amp; GitHub</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-terminal"></i><span>Command Line</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-users"></i
+                  ><span>Agile / Collaboration</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-comments"></i
+                  ><span>Communication & teamwork</span>
+                </li>
+                <li class="skills__item">
+                  <i class="fa-solid fa-user-tie"></i
+                  ><span>Technical Growth & Adaptability</span>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <div class="section__inner container">
+          <header class="section__header">
+            <p class="section__eyebrow">Projects</p>
+            <p class="section__description">
+              These project cards are placeholders and will be updated as I
+              complete more work during my learning journey.
+            </p>
+          </header>
+
+          <div class="projects__grid">
+            <article class="projects__card">
+              <div class="projects__image-placeholder">
+                <span class="projects__image-text">Project screenshot</span>
+              </div>
+              <div class="projects__body">
+                <h3 class="projects__title">Project Title #1</h3>
+                <p class="projects__description">
+                  Placeholder description for this project.
+                </p>
+                <ul class="projects__tags">
+                  <li class="projects__tag">
+                    <i class="fa-brands fa-html5"></i><span> HTML</span>
+                  </li>
+                  <li class="projects__tag">
+                    <i class="fa-brands fa-css3-alt"></i><span> SCSS</span>
+                  </li>
+                  <li class="projects__tag">
+                    <i class="fa-brands fa-js"></i><span> JS</span>
+                  </li>
+                </ul>
+                <div class="projects__links">
+                  <a class="projects__link" href="#" target="_blank"
+                    >Live Demo</a
+                  >
+                  <a class="projects__link" href="#" target="_blank"
+                    >GitHub Repo</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <div class="projects__image-placeholder">
+                <span class="projects__image-text">Project screenshot</span>
+              </div>
+              <div class="projects__body">
+                <h3 class="projects__title">Project Title #2</h3>
+                <p class="projects__description">
+                  Placeholder description for this project.
+                </p>
+                <ul class="projects__tags">
+                  <li class="projects__tag">
+                    <i class="fa-solid fa-code"></i><span>Placeholder</span>
+                  </li>
+                  <li class="projects__tag">
+                    <i class="fa-solid fa-layer-group"></i><span>Tech</span>
+                  </li>
+                </ul>
+                <div class="projects__links">
+                  <a class="projects__link" href="#" target="_blank"
+                    >Live Demo</a
+                  >
+                  <a class="projects__link" href="#" target="_blank"
+                    >GitHub Repo</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <div class="projects__image-placeholder">
+                <span class="projects__image-text">Project screenshot</span>
+              </div>
+              <div class="projects__body">
+                <h3 class="projects__title">Project Title #3</h3>
+                <p class="projects__description">
+                  Placeholder description for this project.
+                </p>
+                <ul class="projects__tags">
+                  <li class="projects__tag">
+                    <i class="fa-solid fa-brain"></i><span>Placeholder</span>
+                  </li>
+                  <li class="projects__tag">
+                    <i class="fa-solid fa-gears"></i><span>Stack</span>
+                  </li>
+                </ul>
+                <div class="projects__links">
+                  <a class="projects__link" href="#" target="_blank"
+                    >Live Demo</a
+                  >
+                  <a class="projects__link" href="#" target="_blank"
+                    >GitHub Repo</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="section__inner container">
+          <header class="section__header section__header--center">
+            <p class="section__eyebrow">Contact me</p>
+            <p class="section__description">
+              If you’d like to get in touch, I’d love to hear from you.
+            </p>
+          </header>
+
+          <div class="contact__content">
+            <ul class="contact__list">
+              <li class="contact__item">
+                <span class="contact__label"
+                  ><i class="fa-solid fa-envelope"></i> Email</span
+                >
+                <a class="contact__link" href="mailto:dinara.tiumina@gmail.com">
+                  dinara.tiumina@gmail.com
+                </a>
+              </li>
+
+              <li class="contact__item">
+                <span class="contact__label"
+                  ><i class="fa-brands fa-github"></i> GitHub</span
+                >
+                <a
+                  class="contact__link"
+                  href="https://github.com/dinara-t"
+                  target="_blank"
+                >
+                  github.com/dinara-t
+                </a>
+              </li>
+
+              <li class="contact__item">
+                <span class="contact__label"
+                  ><i class="fa-brands fa-linkedin"></i> LinkedIn</span
+                >
+                <a class="contact__link" href="#" target="_blank">
+                  linkedin.com/in/dinara-tiumina
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        <p class="site-footer__text">
+          © <span class="site-footer__year">2025</span> Dinara Tiumina
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        const header = document.querySelector(".site-header");
+        const toggle = document.querySelector(".site-header__menu-toggle");
+        const links = document.querySelectorAll(".site-header__menu-link");
+
+        if (!header || !toggle) return;
+
+        toggle.addEventListener("click", () => {
+          const isOpen = header.classList.toggle("site-header--nav-open");
+          toggle.setAttribute("aria-expanded", String(isOpen));
+          toggle.innerHTML = isOpen
+            ? '<i class="fa-solid fa-xmark"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
+        });
+
+        links.forEach((link) => {
+          link.addEventListener("click", () => {
+            header.classList.remove("site-header--nav-open");
+            toggle.setAttribute("aria-expanded", "false");
+            toggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

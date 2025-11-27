@@ -1,0 +1,115 @@
+@import "../utils/variables";
+
+.projects {
+  &__grid {
+    display: grid;
+    gap: 1.8rem;
+    grid-template-columns: 1fr;
+
+    @media (min-width: $bp-tablet) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  &__card {
+    border-radius: $radius-lg;
+    border: 1px solid $color-border;
+    overflow: hidden;
+    background-color: rgba($color-surface, 0.5);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  &__image-placeholder {
+    min-height: 160px;
+    background: radial-gradient(
+      circle at 20% 0,
+      $color-accent-soft 0,
+      #020617 65%
+    );
+    display: flex;
+    align-items: centre;
+    justify-content: centre;
+  }
+
+  &__image-text {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: $color-muted;
+  }
+
+  &__body {
+    padding: 1.1rem 1.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  &__title {
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+
+  &__description {
+    font-size: 0.9rem;
+    color: $color-muted;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.6rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__tag {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid $color-border;
+    background-color: $color-accent-soft;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  &__link {
+    font-size: 0.85rem;
+    color: $color-link;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 0.15rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 1px;
+      background-color: $color-link;
+      transition: width 0.2s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: $color-link-hover;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
