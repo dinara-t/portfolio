@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@use "../utils/variables" as variables;
 
 .hero {
   padding-block: 3.5rem;

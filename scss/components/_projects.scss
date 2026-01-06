@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@use "../utils/variables" as variables;
 
 .projects {
   &__grid {
@@ -26,22 +26,38 @@
   }
 
   &__image-placeholder {
-    min-height: 160px;
+    aspect-ratio: 16 / 9;
     background: radial-gradient(
       circle at 20% 0,
       $color-accent-soft 0,
       #020617 65%
     );
     display: flex;
-    align-items: centre;
-    justify-content: centre;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
   }
 
-  &__image-text {
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    color: $color-muted;
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .projects__card:hover .projects__image {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+  }
+  .projects__image-placeholder::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.4)
+    );
   }
 
   &__body {

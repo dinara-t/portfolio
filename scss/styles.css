@@ -502,17 +502,30 @@ body.page {
   min-height: 100%;
 }
 .projects__image-placeholder {
-  min-height: 160px;
+  aspect-ratio: 16/9;
   background: radial-gradient(circle at 20% 0, rgba(146, 56, 248, 0.15) 0, #020617 65%);
   display: flex;
-  align-items: centre;
-  justify-content: centre;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
-.projects__image-text {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: #b9c3d4;
+.projects__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.projects .projects__card:hover .projects__image {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+.projects .projects__image-placeholder::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4));
 }
 .projects__body {
   padding: 1.1rem 1.2rem 1.2rem;
