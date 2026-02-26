@@ -33,7 +33,7 @@ I also have a strong interest in digital art and UI/UX design, which informs how
 
 ### Pawsonality Gear – E-Commerce Demo
 
-A full-stack e-commerce demo built with React (Vite), Firebase Firestore, and Stripe Checkout.
+An e-commerce demo built with React (Vite), Firebase Firestore, and Stripe Checkout.
 
 Key features:
 
@@ -46,6 +46,24 @@ Key features:
 
 Tech stack:
 React · Vite · Firestore · Stripe · Express · SCSS · localStorage
+
+### Minesweeper – Java Console Game
+
+A console-based implementation of the classic Minesweeper game built in Java, focusing on clean object-oriented design and core game logic.
+
+Key features:
+
+- Configurable grid size and mine count
+- Randomised mine placement with uniqueness guarantees
+- Adjacent mine count calculation (0–8)
+- Recursive cascade reveal logic
+- Win and loss detection
+- JUnit 5 test coverage for core game mechanics
+
+This project emphasises backend logic, algorithmic thinking, and separation of concerns between game engine and user interaction.
+
+Tech stack:
+Java · OOP · Algorithms · JUnit 5 · CLI
 
 ### Google Books Finder
 
