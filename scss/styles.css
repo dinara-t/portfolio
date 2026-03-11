@@ -538,7 +538,7 @@ body.page {
   font-weight: 600;
 }
 .projects__description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #b9c3d4;
 }
 .projects__tags {
@@ -585,6 +585,18 @@ body.page {
 }
 .projects__link:hover::after, .projects__link:focus-visible::after {
   width: 100%;
+}
+.projects .projects__meta {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #bbc2cf;
+}
+.projects .projects__impact {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #b4c5dd;
 }
 
 .contact__content {

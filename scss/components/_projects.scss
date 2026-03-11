@@ -74,7 +74,7 @@
   }
 
   &__description {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: $color-muted;
   }
 
@@ -129,5 +129,19 @@
         width: 100%;
       }
     }
+  }
+
+  .projects__meta {
+    margin: 0 0 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #bbc2cf;
+  }
+
+  .projects__impact {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #b4c5dd;
   }
 }
