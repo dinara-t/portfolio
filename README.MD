@@ -51,33 +51,47 @@ I also have a strong interest in **digital art and UI/UX design**, which informs
 
 # Featured Projects
 
-## Jobs Assignment – Full-Stack Job Management System
+## Jobs Platform – Full-Stack System with AI Assistant
 
-A full-stack web application for managing temporary workers and job assignments.
+A full-stack job management platform for managing temporary workers and assignments, enhanced with an AI assistant capable of executing actions through natural language.
 
-The system allows administrators to create jobs, assign temporary workers, and manage job data through a **React frontend** connected to a **Spring Boot REST API**.
+The system is built as a multi-service architecture:
+
+- React frontend (UI)
+- Spring Boot REST API (business logic + persistence)
+- MCP server (AI assistant + tool execution layer)
 
 ### Key features
 
-- REST API built with Spring Boot
+- Secure authentication using JWT stored in HTTP-only cookies
+- CSRF protection for state-changing operations
 - CRUD operations for jobs and temporary workers
-- Secure authentication using JWT
-- Layered backend architecture (controllers, services, repositories)
-- Pagination support for API responses
-- React frontend built with TypeScript
-- Communication with backend via REST endpoints
+- Assign / unassign temps to jobs
+- Pagination and filtering support
+- Layered backend architecture (controller → service → repository)
+- AI assistant capable of:
+  - suggesting workers
+  - assigning temps to jobs
+  - confirming actions via structured responses
 
 ### Tech stack
 
-React · TypeScript · Java · Spring Boot · Maven · MySQL · JWT · REST API
+React · TypeScript · Java · Spring Boot · Maven · MySQL · JWT · CSRF · MCP · REST API
+
+### Architecture
+
+UI → MCP Server → API → Database
 
 ### Repositories
 
-Frontend
-https://github.com/dinara-t/Jobs-UI
+Frontend  
+https://github.com/dinara-t/Jobs-UI  
 
-Backend
-https://github.com/dinara-t/Jobs-API
+Backend API  
+https://github.com/dinara-t/Jobs-API  
+
+MCP Server  
+https://github.com/dinara-t/jobs-mcp-modules  
 
 ---
 
