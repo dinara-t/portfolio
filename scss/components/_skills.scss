@@ -4,17 +4,27 @@
   &__groups {
     display: grid;
     gap: 1.5rem;
+    align-items: start;
 
-    @media (min-width: $bp-tablet) {
-      grid-template-columns: repeat(3, 1fr);
+    @media (min-width: variables.$bp-tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: variables.$bp-desktop) {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
   &__group {
-    background-color: rgba($color-surface, 0.25);
-    border-radius: $radius-md;
-    border: 1px solid $color-border;
-    padding: 1.2rem;
+    background-color: rgba(variables.$color-surface, 0.25);
+    border-radius: variables.$radius-md;
+    border: 1px solid variables.$color-border;
+    padding: 1.5rem;
+  }
+
+  &__group-title {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
   }
 
   &__list {
@@ -26,13 +36,20 @@
   &__item {
     display: flex;
     align-items: center;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.75rem;
     font-size: 1rem;
 
+    &:last-child {
+      margin-bottom: 0;
+    }
+
     i {
-      margin-right: 8px;
+      margin-right: 10px;
       font-size: 1.1rem;
       line-height: 1;
+      width: 1.2rem;
+      text-align: center;
+      flex-shrink: 0;
     }
 
     span {
