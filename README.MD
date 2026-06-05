@@ -1,279 +1,249 @@
 # Portfolio
 
-🔗 **Live portfolio:**
+Professional software engineering portfolio showcasing full-stack applications, cloud deployments, AI integrations, and enterprise application development projects.
+
+## Live Portfolio
+
 https://dinara-t.github.io/portfolio/
 
 ---
 
-# About This Portfolio
+# About Me
 
-This repository contains my personal portfolio website, showcasing projects built during my transition into software development.
+I'm a Software Developer with a background in SaaS Customer Success and Application Support, combining hands-on software engineering skills with experience supporting enterprise business systems.
 
-I am currently completing an intensive, practical software development program focused on:
+My development experience includes building and deploying full-stack applications using React, TypeScript, Java, Spring Boot, SQL databases, cloud infrastructure, and AI-powered integrations.
 
-- HTML & semantic markup
-- CSS / SCSS
-- JavaScript (ES6+)
-- React
-- Java fundamentals
-- APIs & asynchronous programming
-- Test-driven development (TDD)
-- Cloud basics
+Before moving into software development, I spent more than five years working with enterprise platforms including:
 
-Alongside development, I have over five years of experience in **SaaS customer success and application support**, working with:
+* Salesforce
+* HubSpot
+* Oracle
+* SAP
+* Infor M3
 
-- Salesforce
-- HubSpot
-- Oracle
-- SAP
-- Infor M3
+This experience developed strong skills in:
 
-This background influences how I approach:
+* Problem solving
+* Application troubleshooting
+* Technical investigations
+* User-focused design
+* Requirements analysis
+* Cross-functional collaboration
 
-- problem-solving
-- system design
-- debugging and troubleshooting
-- user experience and usability
-
-I also have a strong interest in **digital art and UI/UX design**, which informs how I structure layouts and build clean, user-focused interfaces.
+I recently completed the _nology Pathway to Tech Program and have continued building increasingly complex projects focused on modern web development, cloud deployment, security, and AI-assisted workflows.
 
 ---
 
-# Technologies Used (Portfolio Site)
+# Technical Skills
 
-- HTML5
-- SCSS (modular structure)
-- JavaScript
-- Git & GitHub
-- GitHub Pages (deployment)
+## Frontend
+
+* React
+* TypeScript
+* JavaScript
+* HTML5
+* SCSS
+* Vite
+* React Router
+* TanStack Query
+
+## Backend
+
+* Java
+* Spring Boot
+* Spring Security
+* REST APIs
+* JWT Authentication
+* CSRF Protection
+* Maven
+
+## Databases
+
+* MySQL
+* Amazon Aurora
+* Amazon RDS
+* Firebase Firestore
+
+## Cloud & DevOps
+
+* AWS Amplify
+* AWS Elastic Beanstalk
+* AWS Route 53
+* AWS Certificate Manager
+* GitHub Actions
+* Git
+* GitHub
+
+## Testing
+
+* JUnit 5
+* Rest Assured
+* Vitest
+* React Testing Library
+* Jest
+
+## AI & Integration
+
+* MCP Architecture
+* AI Tool Calling
+* Assistant Workflows
+* API Orchestration
 
 ---
 
-# Featured Projects
+# Featured Project
 
-## Jobs Platform – Full-Stack System with AI Assistant
+## Workforce Management Platform with AI Assistant
 
-A full-stack job management platform for managing temporary workers and assignments, enhanced with an AI assistant capable of executing actions through natural language.
+A production-deployed workforce management system built using a multi-service architecture.
 
-The system is built as a multi-service architecture:
+### Live Application
 
-- React frontend (UI)
-- Spring Boot REST API (business logic + persistence)
-- MCP server (AI assistant + tool execution layer)
+https://jobs.dinaratiumina.com
 
-### Key features
+### Overview
 
-- Secure authentication using JWT stored in HTTP-only cookies
-- CSRF protection for state-changing operations
-- CRUD operations for jobs and temporary workers
-- Assign / unassign temps to jobs
-- Pagination and filtering support
-- Layered backend architecture (controller → service → repository)
-- AI assistant capable of:
-  - suggesting workers
-  - assigning temps to jobs
-  - confirming actions via structured responses
+The platform enables organisations to manage temporary workers, jobs, workforce availability, and assignments while maintaining secure access controls and business-rule validation.
 
-### Tech stack
+The solution consists of three independently deployable services:
 
-React · TypeScript · Java · Spring Boot · Maven · MySQL · JWT · CSRF · MCP · REST API
+* React Frontend
+* Spring Boot API
+* MCP AI Assistant Server
 
-### Architecture
+### Key Features
 
-UI → MCP Server → API → Database
+* JWT authentication using secure HttpOnly cookies
+* CSRF protection
+* Workforce hierarchy management
+* Job assignment workflows
+* Availability validation
+* Scheduling conflict prevention
+* Pagination, sorting and filtering
+* AI-powered assistant capable of performing workforce actions
 
-### Repositories
+### Technology Stack
 
-Frontend  
-https://github.com/dinara-t/Jobs-UI  
+React · TypeScript · Spring Boot · Java · MySQL · AWS · JWT · CSRF · MCP
 
-Backend API  
-https://github.com/dinara-t/Jobs-API  
+### Cloud Deployment
 
-MCP Server  
-https://github.com/dinara-t/jobs-mcp-modules  
-
----
-
-## Todo Application – Full-Stack Task Manager
-
-A full-stack task management application built with a **React frontend** and **Spring Boot backend**.
-
-The backend exposes a REST API that allows tasks to be created, updated, filtered, sorted, and soft-deleted.
-
-### Key features
-
-- Spring Boot REST API
-- MySQL database integration
-- Environment-based configuration
-- Layered architecture using DTOs, services, and repositories
-- Soft delete functionality
-- Category filtering and sorting
-- React frontend consuming backend API
-
-### Tech stack
-
-React · TypeScript · Java · Spring Boot · Maven · MySQL · REST API
+* AWS Amplify
+* AWS Elastic Beanstalk
+* Amazon Aurora
+* Amazon RDS
+* Route 53
+* AWS Certificate Manager
 
 ### Repositories
 
 Frontend
-https://github.com/dinara-t/todo-UI
+https://github.com/dinara-t/Jobs-UI
 
-Backend
-https://github.com/dinara-t/todo-API
+Backend API
+https://github.com/dinara-t/Jobs-API
+
+MCP Server
+https://github.com/dinara-t/jobs-mcp-modules
 
 ---
 
-## Pawsonality Gear – E-Commerce Demo
+# Additional Projects
 
-A responsive e-commerce demo built with **React (Vite)**, **Firebase Firestore**, and **Stripe Checkout**.
+## Todo Application
 
-### Key features
+Full-stack task management platform built using React and Spring Boot.
 
-- Client-side routing with React Router
-- Cart state managed with React Context
-- Cart persistence via localStorage
-- Product & variant stock stored in Firestore
-- Secure Stripe Checkout flow via Express backend
-- Firestore transactions to reduce stock atomically after payment
+Highlights:
 
-### Tech stack
+* REST API architecture
+* MySQL persistence
+* DTO-based design
+* Filtering and sorting
+* Soft delete implementation
+* Frontend/backend separation
 
-React · Vite · Firestore · Stripe · Express · SCSS · localStorage
+Repositories:
 
-### Repository
+* https://github.com/dinara-t/todo-UI
+* https://github.com/dinara-t/todo-API
+
+---
+
+## Pawsonality Gear
+
+E-commerce platform prototype built with React, Firebase Firestore, Stripe Checkout, and Express.
+
+Highlights:
+
+* Cart persistence
+* Secure checkout workflows
+* Inventory management
+* Firestore transactions
+* Full-stack integration
+
+Repository:
 
 https://github.com/dinara-t/Pawsonality-Gear
 
 ---
 
-## Minesweeper – Java Console Game
+## Minesweeper
 
-A console-based implementation of the classic Minesweeper game built in Java.
+Java console application focused on object-oriented design, algorithms, and testing.
 
-This project focuses on **clean object-oriented design**, algorithms, and backend logic.
+Highlights:
 
-### Key features
+* OOP principles
+* Recursive algorithms
+* JUnit testing
+* Game state management
 
-- Configurable grid size and mine count
-- Randomised mine placement with uniqueness guarantees
-- Adjacent mine count calculation (0–8)
-- Recursive cascade reveal logic
-- Win and loss detection
-- JUnit 5 test coverage for core game mechanics
-
-### Tech stack
-
-Java · OOP · Algorithms · JUnit 5 · CLI
-
-### Repository
+Repository:
 
 https://github.com/dinara-t/Minesweeper
 
 ---
 
-## Google Books Finder
+# What I'm Currently Learning
 
-A React application that integrates with the **Google Books API**.
+I continue expanding my knowledge in:
 
-### Key features
-
-- Dynamic search functionality
-- API data fetching using async/await
-- Conditional rendering
-- Modal interface for detailed book information
-
-### Tech stack
-
-React · JavaScript · REST API · SCSS
-
-### Live demo
-
-https://dinara-t.github.io/GoogleBooksSearch/
-
-### Repository
-
-https://github.com/dinara-t/GoogleBooksSearch
+* Cloud infrastructure and AWS
+* Software architecture
+* AI-assisted applications
+* Automated testing
+* DevOps practices
+* Scalable backend systems
+* Production support engineering
 
 ---
 
-## Morse Code Translator
+# Career Interests
 
-A web application that translates between **English and Morse code**.
+I am particularly interested in opportunities involving:
 
-### Key features
-
-- Automatic detection of input type
-- Translation logic implemented as pure functions
-- Unit tests written using Jest
-- Emphasis on clean logic separation
-
-### Tech stack
-
-JavaScript · SCSS · Jest
-
-### Live demo
-
-https://dinara-t.github.io/Morse-Code-Translator/
-
-### Repository
-
-https://github.com/dinara-t/Morse-Code-Translator
+* Software Development
+* Full-Stack Development
+* Application Support Engineering
+* Technical Support Engineering
+* Production Support Engineering
+* SaaS Platforms
+* Cloud Applications
 
 ---
 
-## Hangman – Bake a Cake Edition
+# Contact
 
-A browser-based Hangman game built with **vanilla JavaScript**, HTML, and SCSS.
+LinkedIn
 
-Instead of building a gallows, the player attempts to **finish baking a cake before running out of guesses**.
+https://www.linkedin.com/in/dinara-t
 
-### Key features
+GitHub
 
-- DOM manipulation
-- Keyboard and button input handling
-- Game state management
-- Custom UI theme
+https://github.com/dinara-t
 
-### Tech stack
+Portfolio
 
-JavaScript · HTML · SCSS
-
-### Live demo
-
-https://dinara-t.github.io/Bake-The-Cake-Hangman-Game-Mechanics-/
-
-### Repository
-
-https://github.com/dinara-t/Bake-The-Cake-Hangman-Game-Mechanics-
-
----
-
-# Project Structure & Approach
-
-My projects focus on:
-
-- Clear component responsibility
-- Defensive coding practices
-- Clean state management
-- Readable structure
-- Separation of concerns (UI / logic / services)
-- Real-world patterns such as APIs, authentication, and database integration
-
----
-
-# Purpose
-
-This portfolio represents my transition into software development and demonstrates:
-
-- Technical growth
-- Practical project work
-- Understanding of front-end architecture
-- Exposure to full-stack development concepts
-
----
-
-# Status
-
-Actively maintained and updated as I continue studying and building new projects.
+https://dinara-t.github.io/portfolio/
