@@ -151,25 +151,27 @@ https://github.com/dinara-t/jobs-mcp-modules
 
 # Additional Projects
 
-## Todo Application
+## TaskFlow – Team Task Management Platform
 
-Full-stack task management platform built using React and Spring Boot.
+A multi-tenant team task management platform built with React, TypeScript, and Spring Boot.
 
 Highlights:
 
-* REST API architecture
-* MySQL persistence
-* DTO-based design
-* Filtering and sorting
-* Soft delete implementation
-* Frontend/backend separation
+* Teams, role-based memberships, and team-scoped projects
+* Tasks, categories, and comments
+* JWT authentication with Spring Security
+* Validation-first service layer
+* Activity logging for audit trails
+* Pagination and filtering
+* Domain boundaries structured as a foundation for service decomposition
 
 Repositories:
 
-* https://github.com/dinara-t/todo-UI
-* https://github.com/dinara-t/todo-API
+Frontend
+https://github.com/dinara-t/TaskFlow-UI
 
----
+Backend
+https://github.com/dinara-t/TaskFlow-API
 
 ## Pawsonality Gear
 
