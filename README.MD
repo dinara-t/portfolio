@@ -1,6 +1,6 @@
 # Portfolio
 
-Professional software engineering portfolio showcasing full-stack applications, cloud deployments, AI integrations, and enterprise application development projects.
+Portfolio of my full-stack projects: React, TypeScript, Java, Spring Boot and AWS.
 
 ## Live Portfolio
 
@@ -10,28 +10,17 @@ https://dinara-t.github.io/portfolio/
 
 # About Me
 
-I'm a Software Developer with a background in SaaS Customer Success and Application Support, combining hands-on software engineering skills with experience supporting enterprise business systems.
+I work as a Technical CX Specialist at Harvey, supporting users of its legal AI platform. I'm also a full-stack developer: I build and deploy apps with React, TypeScript, Java, Spring Boot, MySQL and AWS.
 
-My development experience includes building and deploying full-stack applications using React, TypeScript, Java, Spring Boot, SQL databases, cloud infrastructure, and AI-powered integrations.
+Before that I spent more than five years in SaaS and enterprise application support, working with:
 
-Before moving into software development, I spent more than five years working with enterprise platforms including:
+* **Enterprise systems:** SAP, Oracle ERP, Infor M3
+* **SaaS:** a workplace giving platform (Level 1 support)
+* **Ticketing / CRM tools:** Salesforce, HubSpot, Zendesk
 
-* Salesforce
-* HubSpot
-* Oracle
-* SAP
-* Infor M3
+Most of that work was reproducing bugs, finding root causes and escalating to engineering. That's shaped how I build software.
 
-This experience developed strong skills in:
-
-* Problem solving
-* Application troubleshooting
-* Technical investigations
-* User-focused design
-* Requirements analysis
-* Cross-functional collaboration
-
-I recently completed the _nology Pathway to Tech Program and have continued building increasingly complex projects focused on modern web development, cloud deployment, security, and AI-assisted workflows.
+**Education:** Master of IT (Interactive Media), University of Technology Sydney · _nology Pathway to Tech Program (2026)
 
 ---
 
@@ -83,20 +72,19 @@ I recently completed the _nology Pathway to Tech Program and have continued buil
 * React Testing Library
 * Jest
 
-## AI & Integration
+## Integration
 
-* MCP Architecture
-* AI Tool Calling
-* Assistant Workflows
-* API Orchestration
+* MCP (Model Context Protocol)
+* Tool contracts and routing
+* API orchestration
 
 ---
 
 # Featured Project
 
-## Workforce Management Platform with AI Assistant
+## Workforce Management Platform
 
-A production-deployed workforce management system built using a multi-service architecture.
+A production-deployed workforce management system built from three separate services.
 
 ### Live Application
 
@@ -104,13 +92,13 @@ https://jobs.dinaratiumina.com
 
 ### Overview
 
-The platform enables organisations to manage temporary workers, jobs, workforce availability, and assignments while maintaining secure access controls and business-rule validation.
+The platform lets organisations manage temporary workers, jobs, availability and assignments, with access controls and business-rule validation.
 
-The solution consists of three independently deployable services:
+It's made up of three independently deployable services:
 
-* React Frontend
+* React frontend
 * Spring Boot API
-* MCP AI Assistant Server
+* MCP tool-routing server
 
 ### Key Features
 
@@ -121,7 +109,7 @@ The solution consists of three independently deployable services:
 * Availability validation
 * Scheduling conflict prevention
 * Pagination, sorting and filtering
-* AI-powered assistant capable of performing workforce actions
+* Custom MCP tool-routing layer that runs platform actions from natural-language commands, with confirmation flows and failure handling
 
 ### Technology Stack
 
@@ -153,12 +141,12 @@ https://github.com/dinara-t/jobs-mcp-modules
 
 ## TaskFlow – Team Task Management Platform
 
-A multi-tenant team task management platform built with React, TypeScript, and Spring Boot.
+A multi-tenant team task management platform built with React, TypeScript and Spring Boot.
 
 Highlights:
 
-* Teams, role-based memberships, and team-scoped projects
-* Tasks, categories, and comments
+* Teams, role-based memberships and team-scoped projects
+* Tasks, categories and comments
 * JWT authentication with Spring Security
 * Validation-first service layer
 * Activity logging for audit trails
@@ -175,25 +163,22 @@ https://github.com/dinara-t/TaskFlow-API
 
 ## Pawsonality Gear
 
-E-commerce platform prototype built with React, Firebase Firestore, Stripe Checkout, and Express.
+E-commerce prototype built with React, Firebase Firestore, Stripe Checkout and Express.
 
 Highlights:
 
 * Cart persistence
-* Secure checkout workflows
-* Inventory management
-* Firestore transactions
-* Full-stack integration
+* Stripe Checkout integration
+* Variant-based inventory
+* Firestore transactions to keep stock accurate
 
 Repository:
 
 https://github.com/dinara-t/Pawsonality-Gear
 
----
-
 ## Minesweeper
 
-Java console application focused on object-oriented design, algorithms, and testing.
+Java console application focused on object-oriented design, algorithms and testing.
 
 Highlights:
 
@@ -208,44 +193,18 @@ https://github.com/dinara-t/Minesweeper
 
 ---
 
-# What I'm Currently Learning
-
-I continue expanding my knowledge in:
+# Currently Learning
 
 * Cloud infrastructure and AWS
 * Software architecture
-* AI-assisted applications
 * Automated testing
 * DevOps practices
-* Scalable backend systems
 * Production support engineering
 
 ---
 
-# Career Interests
+# Connect
 
-I am particularly interested in opportunities involving:
+LinkedIn: https://www.linkedin.com/in/dinara-t
 
-* Software Development
-* Full-Stack Development
-* Application Support Engineering
-* Technical Support Engineering
-* Production Support Engineering
-* SaaS Platforms
-* Cloud Applications
-
----
-
-# Contact
-
-LinkedIn
-
-https://www.linkedin.com/in/dinara-t
-
-GitHub
-
-https://github.com/dinara-t
-
-Portfolio
-
-https://dinara-t.github.io/portfolio/
+GitHub: https://github.com/dinara-t
